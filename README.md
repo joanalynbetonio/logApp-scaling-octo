@@ -2,7 +2,7 @@
 
  > **NAME**
 
-How Do I Access The Database Using PhpMyAdmin?
+PhpMyAdmin — How To Import A Database Or Table?
 
  > **DESCRIPTION**
 
@@ -64,7 +64,7 @@ This article explains how to import the following:
 {
 
     Step 7 - Click the Go button at the bottom to import the database.
- }
+
    
   If you imported a database, all tables will show when selecting the database in the left panel of phpMyAdmin.
 
