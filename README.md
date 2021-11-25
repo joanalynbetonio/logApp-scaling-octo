@@ -2,49 +2,76 @@
 
  > **NAME**
 
-How do I access the database using phpMyAdmin?
+How Do I Access The Database Using PhpMyAdmin?
 
  > **DESCRIPTION**
 
-PhpMyAdmin is an open source tool where you can administer your MariaDB database(s). It is pre-installed with your web hosting subscription. In phpMyAdmin you can, import, export, optimize or drop tables.
+This article explains how to import the following:
 
-If your website is using a database, this is where all the data of your site is stored. For example, WordPress stores all your posts, comments and articles in a database.
+- A single table (that does not exist) into a database (that already exists in the panel)
+- All database content into an empty database (that already exists in the panel)
 
-[Reference](https://help.one.com/hc/en-us/articles/115005585509-How-do-I-access-the-database-using-phpMyAdmin-)
+[Reference](https://help.dreamhost.com/hc/en-us/articles/214395768-phpMyAdmin-How-to-import-a-database-or-table)
 
 
   > **VISUAL**
 
-![DATABASE](https://help.one.com/hc/article_attachments/360012325978/cp-php-database-settings.png)
+![image](https://user-images.githubusercontent.com/73054859/143485615-eef8b887-0a91-4280-8dca-8e82e90677ab.png)
 
-![PHP](https://help.one.com/hc/article_attachments/360012325998/click-database-name.png)
+![image](https://user-images.githubusercontent.com/73054859/143485753-f2a63f85-b6f1-4032-bd4f-abf0245a8fef.png)
+
+![image](https://user-images.githubusercontent.com/73054859/143485772-279b931b-b053-4850-9671-4d2a87afa624.png)
+
 
   > **INSTALLATION**
 
 {
 
-    Step 1 - Log in to the control panel
-    
-    Log in to the one.com control panel.
+    Step 1 - Log into phpMyAdmin.
 
-    Click PHP and database settings on the Advanced settings tile
 }
 
 {
 
-    Step 2 - Select database
+    Step 2 - Select the destination database on the left panel.
     
-    Under PhpMyAdmin in the top right, click Select database and choose the database you want to access.
 }
 
 {
 
-    Step 3 - Administer your database
-    
-    A new window opens showing your database in phpMyAdmin. Here you can manage all the tables in your database. Check out the guides below to learn about the various actions you can perform.
+    Step 3 - Click on the Import tab in the top center panel.
 
-    Tip: Click on the database name in the menu to the left, to load the tables and make changes.
 }
+
+{
+
+    Step 4 - Under the File to import section, click Browse and locate the file with the .sql extension you wish to import.
+
+}
+
+{
+
+    Step 5 - Check or uncheck the boxes for 'Partial import' and 'Other options'.
+
+}
+
+{
+
+    Step 6 - From the Format dropdown menu choose 'SQL'.
+
+}
+
+{
+
+    Step 7 - Click the Go button at the bottom to import the database.
+   
+  If you imported a database, all tables will show when selecting the database in the left panel of phpMyAdmin.
+
+  If you imported a table, the newly-imported table will appear in the list of tables.
+    
+ {
+ 
+ 
 > **AUTHOR**
 
 Author Name: Joanalyn F. Betonio
